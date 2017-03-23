@@ -1,0 +1,46 @@
+<html>
+	<head>
+	     <title>Arshdeep</title>
+	      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	
+	<style >
+		body{
+		    text-align:center;
+		    font-family:"Arial";
+		    background:url(https://static.pexels.com/photos/325185/pexels-photo-325185.jpeg);
+		    background-position:center;
+		    background-size:cover;
+		    color:Black;
+		}
+		img{
+			width:400;
+			border-radius:50%;
+		}
+	</style>
+	</head>
+	
+	<body>
+	<img src = "http://club-3t.ru/uploads/posts/2013-11/1384484292_assassins-creed-4-black-flag.jpg">
+	     <h1 class="animated flipInX">Arshdeep Badhan</h1>
+	     <h2 class="animated rubberBand">The best</h2>
+ 	     <h3 class="animated zoomInDown">Programmer</h3>
+	     <h4 class="animated rollIn">=]</h4>
+	     
+	     <p id="emailText">Click Button to Reveal</p>
+	     <button id="clickButton">Join me today</button>
+	
+	</body>
+	
+ 
+ 
+</html>
+<script>
+		var myButton = document.getElementById("clickButton")
+		var myEmailAddress = document.getElementById("emailText")
+		
+		myButton.addEventListener('click',showEmail,false);
+		
+		function showEmail(){
+			myEmailAddress.textContent = "Arshdeep@arshdeep.com.com"
+		}
+</script>
